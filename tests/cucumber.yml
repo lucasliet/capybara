@@ -1,0 +1,9 @@
+---
+
+default: --publish-quiet --profile pretty -p homolog
+
+pretty: --format pretty
+progress: --format progress
+
+homolog: AMBIENTE=homolog
+producao: AMBIENTE=producao
