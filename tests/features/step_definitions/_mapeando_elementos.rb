@@ -1,6 +1,6 @@
 Quando('preencho o formulário.') do
-  mapeando_elementos_page = MapeandoElementosPage.new
-  mapeando_elementos_page.load
+  # usando page_helper.rb
+  home.load
 
-  mapeando_elementos_page.preencher 'bruno'
+  home.preencher 'bruno'
 end
