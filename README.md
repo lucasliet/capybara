@@ -5,3 +5,5 @@ baixe os drivers [chromedriver](https://sites.google.com/a/chromium.org/chromedr
 execute os testes entrando na pasta ./tests e executando o comando `cucumber`
 
 para executar apenas um cenário em especifico, use o comando `cucumber -t @id_do_cenario`
+
+Todos os testes começados com `_` estão usando site_prism com page objects, para executar esses cenários use `bundle exec cucumber -t @id_do_cenario`  
